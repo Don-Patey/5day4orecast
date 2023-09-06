@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="style.css">
+<head>
+    <body>
+        <header>Local Weather Report</header>
+    
+    <div class="Main">
+        <aside class="container-search"></aside>
+        <div id="city-search">
+            <h1 id="header-search">Search for a city here</h1>
+            <form>
+                <input placeholder="Enter City" type="text" id="city">
+            </form>
+            <button id="btn-search">Search!</button>
+        </div>
+        <div id="city-list-section">
+            <div>
+                <ul id="list-of-cities">
+                    <li>
+                        <p>Toronto</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <div class="weather-report">
+        <div class="current-day">
+            <h1 id="city-header">Name</h1>
+            <p>Temp:</p>
+            <p>Wind:</p>
+            <p>Humidity</p>
+    </div>
+    <div id="weather-seperator"></div>
+    <div class="five-day-forecast">
+        <h1>Five Day Forecast</h1>
+        <div class="5-day-cards"></div>
+    </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+    </body>
+
+</head>
+</html>
